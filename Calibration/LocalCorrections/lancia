@@ -1,0 +1,15 @@
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 999 --useW -w localEta
+python subJobs.py -o graphs.root -q 8nh -r 0.94 -R 999 -b 0 -B 999 --useW -w localEta_highR9
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 0.94 -b 0 -B 999 --useW -w localEta_lowR9
+
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 999 --useLocalPhi --useW -w localPhi
+python subJobs.py -o graphs.root -q 8nh -r 0.94 -R 999 -b 0 -B 999 --useLocalPhi --useW -w localPhi_highR9
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 0.94 -b 0 -B 999 --useLocalPhi --useW -w localPhi_lowR9
+
+
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 1 --useW -w localEta_nBC1
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 1 --useLocalPhi --useW -w localPhi_nBC1
+
+
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 1 --useW -w localEta_nBC1
+python subJobs.py -o graphs.root -q 8nh -r 0.   -R 999 -b 0 -B 1 --useLocalPhi --useW -w localPhi_nBC1
